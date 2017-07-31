@@ -1,0 +1,41 @@
+{
+	"name": "react-slack",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "./node_modules/.bin/webpack-dev-server --hot",
+		"build": "./node_modules/.bin/webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/israeljunior/react-slack.git"
+	},
+	"author": "",
+	"license": "",
+	"bugs": {
+		"url": "https://github.com/israeljunior/react-slack/issues"
+	},
+	"homepage": "https://github.com/israeljunior/react-slack#readme",
+	"dependencies": {
+		"react": "^15.5.4",
+		"react-dom": "^15.5.4"
+	},
+	"devDependencies": {
+		"autoprefixer-loader": "^3.2.0",
+		"babel": "^6.23.0",
+		"babel-core": "^6.25.0",
+		"babel-loader": "^7.0.0",
+		"babel-preset-latest": "^6.24.1",
+		"babel-preset-react": "^6.24.1",
+		"babel-preset-stage-0": "^6.24.1",
+		"css-loader": "^0.28.4",
+		"html-webpack-plugin": "^2.29.0",
+		"node-sass": "^4.5.3",
+		"sass-loader": "^6.0.5",
+		"style-loader": "^0.18.2",
+		"svg-react-loader": "^0.4.4",
+		"webpack": "^2.6.1",
+		"webpack-dev-server": "^2.4.5"
+	}
+}
